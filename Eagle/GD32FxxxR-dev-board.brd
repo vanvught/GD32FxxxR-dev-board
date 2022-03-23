@@ -20,8 +20,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -287,11 +287,12 @@ DFU</text>
 <text x="29.845" y="26.035" size="0.8128" layer="25" align="center-left">PA7</text>
 <text x="16.1925" y="41.91" size="0.6096" layer="25" rot="R90" align="center-left">TX_0</text>
 <text x="40.64" y="50.165" size="0.8128" layer="25" align="top-center">BOOT_USART0</text>
-<text x="0.635" y="33.9725" size="0.8128" layer="25" align="center-left">103/8MHz
+<text x="0.635" y="33.9725" size="0.8128" layer="25" align="center-left">x03/8MHz
 x07/25MHz</text>
-<text x="21.59" y="36.5125" size="0.8128" layer="25" align="center-left">GD32F10xRC
-GD32F207RG
-GD32F407RE</text>
+<text x="21.9075" y="36.5125" size="0.8128" layer="25" align="center-left">GD32F10xRx
+GD32F303Rx
+GD32F207Rx
+GD32F407Rx</text>
 <text x="34.925" y="15.24" size="0.6096" layer="25" align="center-right">NSS</text>
 <text x="34.925" y="14.2875" size="0.6096" layer="25" align="center-right">GPIO_PIN24</text>
 <text x="34.925" y="13.335" size="0.6096" layer="25" align="center-right">PB1</text>
@@ -305,7 +306,7 @@ GD32F407RE</text>
 <text x="45.72" y="11.43" size="0.6096" layer="25" rot="R90" align="center-right">TX_2</text>
 <text x="48.26" y="11.43" size="0.6096" layer="25" rot="R90" align="center-right">RX_2</text>
 <text x="11.43" y="41.91" size="0.6096" layer="25" rot="R90" align="center-left">GND</text>
-<text x="49.8475" y="13.0175" size="0.6096" layer="25" rot="R180" align="center-right">103 
+<text x="49.8475" y="13.0175" size="0.6096" layer="25" rot="R180" align="center-right">x03 
 only</text>
 <text x="2.54" y="48.5775" size="0.6096" layer="25" rot="R90" align="center-left">PC8</text>
 <text x="5.08" y="48.5775" size="0.6096" layer="25" rot="R90" align="center-left">PC9</text>
@@ -2755,7 +2756,7 @@ design rules under a new name.</description>
 <attribute name="JLCPCB" value="C44891" x="6.6675" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="6.6675" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="6.6675" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="7.525" y="19.145" size="0.6096" layer="25" ratio="10" align="center-left"/>
+<attribute name="NAME" x="7.525" y="19.145" size="0.4064" layer="25" ratio="10" align="center-left"/>
 <attribute name="OC_FARNELL" value="unknown" x="6.6675" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="6.6675" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULARITY" value="0" x="6.6675" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2925,7 +2926,7 @@ design rules under a new name.</description>
 </element>
 <element name="SV4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X13" package3d_urn="urn:adsk.eagle:package:38176/1" value="GPIO" x="41.91" y="46.355" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.4975" y="46.2915" size="0.6096" layer="25" ratio="10" rot="R180" align="center-right"/>
-<attribute name="VALUE" x="41.91" y="49.276" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="42.2275" y="47.371" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="J3" library="USB-micro" package="USB-B-MICRO-SMD" package3d_urn="urn:adsk.eagle:package:38238/1" value="USB" x="2.2225" y="11.43" smashed="yes">
 <attribute name="JLCPCB" value="C404968" x="-6.6675" y="24.4475" size="1.778" layer="27" display="off"/>
@@ -2977,21 +2978,21 @@ design rules under a new name.</description>
 <attribute name="JLCPCB" value="C191023" x="7.62" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="8.72" y="12.6525" size="0.6096" layer="25" rot="R180" align="center-right"/>
 <attribute name="POPULARITY" value="4" x="7.62" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="8.72" y="15" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="8.72" y="13.095" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="6.985" y="16.51" smashed="yes" rot="R180">
 <attribute name="JLCPCB" value="C14663" x="6.985" y="16.51" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="6.985" y="15.5575" size="0.6096" layer="25" rot="R180" align="bottom-center"/>
 <attribute name="POPULARITY" value="73" x="6.985" y="16.51" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="6.985" y="16.51" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="7.62" y="18.415" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="7.62" y="16.8275" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K5" x="25.0825" y="15.5575" smashed="yes" rot="R90">
 <attribute name="JLCPCB" value="C4190" x="25.0825" y="15.5575" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="25.0825" y="17.145" size="0.6096" layer="25" rot="R180" align="top-center"/>
 <attribute name="POPULARITY" value="70" x="25.0825" y="15.5575" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="25.0825" y="15.5575" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="26.9875" y="14.9225" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="25.0825" y="14.9225" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="22R" x="7.9375" y="8.5725" smashed="yes">
 <attribute name="JLCPCB" value="C23345" x="7.9375" y="8.5725" size="1.778" layer="27" display="off"/>
