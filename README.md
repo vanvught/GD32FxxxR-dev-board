@@ -17,4 +17,4 @@ Details -> [https://www.gd32-dmx.org/dev-board.html](https://www.gd32-dmx.org/de
 
 # Add-on
 Pixel 8x 4 Universes for the `GD32F207RG` / `GD32F407RE` 
-![](https://github.com/vanvught/GD32FxxxR-dev-board/blob/main/Eagle/Addon/Pixel8x4U.png)
+![](https://github.com/vanvught/GD32FxxxR-dev-board/blob/main/Pixel8x4U.png)

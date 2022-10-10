@@ -30150,7 +30150,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="LED1"/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="PC0"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K">
 <spice>
 <pinmapping spiceprefix="R">
@@ -30174,8 +30174,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="RN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0402ARV341" package3d_urn="urn:adsk.eagle:package:24920/1" value="2K">
 <attribute name="JLCPCB" value="C44891"/>
 </part>
-<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="LED2"/>
-<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="LED3"/>
+<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="PC2"/>
+<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="PC3"/>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="PWR"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="XTAL/S" device="" package3d_urn="urn:adsk.eagle:package:26647/2" value="25MHz"/>
@@ -30341,7 +30341,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="JLCPCB" value="C14663"/>
 </part>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="JST-PTH-2" package3d_urn="urn:adsk.eagle:package:38053/1" value="VBat"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SV4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_13" device="" package3d_urn="urn:adsk.eagle:package:38176/1" value="GPIO"/>
 <part name="J3" library="USB-micro" deviceset="USB_MICRO-B" device="_FEMALE-SMT" package3d_urn="urn:adsk.eagle:package:38238/1" value="USB">
@@ -30459,6 +30458,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1" value="GPIOC"/>
+<part name="J11" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="1X02_NO_SILK" package3d_urn="urn:adsk.eagle:package:38051/1" value="Vbat"/>
 </parts>
 <sheets>
 <sheet>
@@ -30764,10 +30764,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND22" gate="1" x="12.7" y="147.32" smashed="yes">
 <attribute name="VALUE" x="10.16" y="144.78" size="1.27" layer="96"/>
 </instance>
-<instance part="J2" gate="G$1" x="0" y="154.94" smashed="yes">
-<attribute name="VALUE" x="-2.54" y="150.114" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="-2.54" y="160.528" size="1.27" layer="95" font="vector"/>
-</instance>
 <instance part="GND23" gate="1" x="7.62" y="152.4" smashed="yes">
 <attribute name="VALUE" x="5.08" y="149.86" size="1.27" layer="96"/>
 </instance>
@@ -30892,6 +30888,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="27.94" y="94.234" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="27.94" y="107.188" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="J11" gate="G$1" x="0" y="154.94" smashed="yes">
+<attribute name="VALUE" x="-2.54" y="150.114" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="-2.54" y="160.528" size="1.778" layer="95" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -31005,10 +31005,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND22" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND23" gate="1" pin="GND"/>
-<pinref part="J2" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="J3" gate="G$1" pin="GND"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 <pinref part="J3" gate="G$1" pin="ID"/>
@@ -31086,6 +31082,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND29" gate="1" pin="GND"/>
 <wire x1="10.16" y1="96.52" x2="11.43" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="11.43" y1="96.52" x2="11.43" y2="95.25" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND23" gate="1" pin="GND"/>
+<pinref part="J11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="BOOT_RX" class="0">
@@ -31796,8 +31796,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.7" y1="157.48" x2="17.78" y2="157.48" width="0.1524" layer="91"/>
 <junction x="12.7" y="157.48"/>
 <label x="15.24" y="157.48" size="1.27" layer="95"/>
-<pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="157.48" x2="12.7" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="J11" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DAC1" class="0">
